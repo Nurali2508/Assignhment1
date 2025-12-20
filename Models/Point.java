@@ -7,9 +7,10 @@ public class Point {
         x=xCrd;
         y=yCrd;
     }
-    public double distance(Point first){
-        double X= first.x - x;
-        double Y= first.y - y;
-        return Math.sqrt(X*X+Y*Y);
+    public double distance(Point p) {
+        double deltaX = this.x - p.x;
+        double deltaY = this.y - p.y;
+        double distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+        return distance;
     }
 }
