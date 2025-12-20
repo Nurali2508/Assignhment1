@@ -11,7 +11,6 @@ public class MyApplication {
 
         File file = new File("C:\\Users\\Nurali\\IdeaProjects\\Assignhment st 2508\\src\\Source"); // проверь имя файла!
         Scanner sc = new Scanner(file).useLocale(Locale.US);
-        sc.useLocale(Locale.US);
 
         Shape shape = new Shape(new ArrayList<>());
 
