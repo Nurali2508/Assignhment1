@@ -9,12 +9,12 @@ import java.util.Scanner;
 public class MyApplication {
     public static void main(String[] args) throws FileNotFoundException {
 
-        File file = new File("C:\\Users\\Nurali\\IdeaProjects\\Assignhment st 2508\\src\\Source"); // проверь имя файла!
-        Scanner sc = new Scanner(file).useLocale(Locale.US);
+        File file = new File("C:\\Users\\Nurali\\IdeaProjects\\Assignhment st 2508\\src\\Source");
 
+        Scanner sc = new Scanner(file).useLocale(Locale.US);
         Shape shape = new Shape(new ArrayList<>());
 
-        while (sc.hasNextDouble()) {
+        while(sc.hasNextDouble()) {
             double x = sc.nextDouble();
             double y = sc.nextDouble();
 
